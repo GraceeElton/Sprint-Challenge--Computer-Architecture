@@ -214,7 +214,7 @@ class CPU:
                 if self.flag != 0b00000001:
                     reg_num = self.ram_read(self.pc + 1)
                     self.pc = self.reg[reg_num]
-                    # update program counter
+                    # update progrram counter
                 else:
                     self.pc += 2
 
